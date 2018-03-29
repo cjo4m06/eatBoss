@@ -337,6 +337,14 @@ function helpBoss(event, clans) {
     message += "說明：\n";
     message += "輸入 分配 [戰利品名稱] 或 distribution [戰利品名稱], 即可分配戰利品給最優先的人選\n\n";
 
+    message += "指令： 報到\n";
+    message += "說明：\n";
+    message += "輸入 報到 [遊戲 ID] 或 checkin [遊戲 ID]，即可完成ＩＤ登記\n\n";
+
+    message += "指令： whois\n";
+    message += "說明：\n";
+    message += "輸入 whois [遊戲 ID] 或 whois [遊戲 ID],[遊戲 ID],....，即可查詢遊戲ＩＤ是誰\n\n";
+
     event.reply({'type': 'text', 'text': message});
 }
 

@@ -70,6 +70,10 @@ tBoss
 > ![分配](/public/01.jpg)<br><br>
 > 7. 新增清單，自己定義有那些寶物需要排隊<br>
 > ![新增](/public/06.jpg)<br><br>
+> 8. 報到，聯盟數越來越多，到後面根本搞不清楚遊戲ID在群組裡面又是誰..<br>
+> ![報到](/public/07.jpg)<br><br>
+> 9. whois，這個時候要找遊戲ＩＤ是誰的時後就方便多了<br>
+> ![whois](/public/08.jpg)<br><br>
 > 除了這些主要功能外，eatboss 還有提供其他便利的功能，請親自體驗玩玩看，只要輸入 eatboss 就會有指令說明唷<br>
 > ![eatboss](/public/eatboss.jpg)<br><br>
 
