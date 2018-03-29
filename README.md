@@ -30,6 +30,19 @@
 #### 5. MySQL
 >這算是很老牌的資料庫了，網路資源很多這邊我就不多做介紹了。
 ><br><br>
->資料庫裡面需要五張 Table 分別是:
+>資料庫裡面需要建立五張 Table 分別是:
 > * clan Table<br>
-> ![clan Table](/public/clan.png)
+> 這張表主要紀錄血盟資訊及認證碼<br>
+> ![clan Table](/public/clan.png)<br>
+> * boss Table<br>
+> 這張表主要紀錄 Boss 資訊<br>
+> ![boss Table](/public/boss.png)<br>
+> * member Table<br>
+> 這張表主要紀錄吃王團成員資訊<br>
+> ![member Table](/public/member.png)<br>
+> * list Table<br>
+> 這張表主要紀錄掉寶資訊<br>
+> ![list Table](/public/list.png)<br>
+> * queue Table<br>
+> 這張表主要紀錄排隊取寶資訊<br>
+> ![queue Table](/public/queue.png)<br>
