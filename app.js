@@ -576,7 +576,7 @@ function removeList(event, clans) {
 
 function getList(event, clans) {
     var clan = clans[0];
-    con.query('SELECT list.*, queue.line_id FROM list LEFT JOIN queue on queue.list_id = list.id WHERE list.clan_id = ? ORDER BY list.id asc', clan.id, function (err, lists) {
+    con.query('SELECT list.*, queue.line_id FROM list LEFT JOIN queue on queue.list_id = list.id WHERE list.clan_id = ? ORDER BY list.id, queue.id', clan.id, function (err, lists) {
         if (! lists.length) {
             event.reply({'type': 'text', 'text': '目前尚無戰利品清單!'});
             return ;
